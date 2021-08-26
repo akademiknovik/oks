@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+header {
+    height: 40px;
+    display: flex;
+    background: rgb(92, 94, 99);
+} 
+
+.one {
+    height: 40px;
+    width: 700px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 300px;
+}
+
+.one a {
+    padding: 10px;
+}
+
+.otziv {
+    height: 40px;
+    width: 290px;
+    background:rgb(127, 129, 125);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 500px;
+}
+.otziv :hover {
+    height: 40px;
+    width: 290px;
+    background:rgb(47, 187, 82);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+header  p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(247, 247, 247);
+    position: relative;
+    left: 480px;
+}
+
+.header_info {
+    background: rgb(255, 255, 255);
+    height: 80px;
+    width: 800px;
+    display: flex;
+    
+}
+
+.header_info img {
+    margin: 0 0 0 292px;
+    
+}
+
+.header_info p {
+    font-size: 11px;
+    position: relative;
+    top: 14px;
+    color: rgb(127, 129, 125);
+}
+
+.garantii video {
+    text-align: center;
+}
